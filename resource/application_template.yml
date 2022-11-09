@@ -1,0 +1,17 @@
+runMode: dev
+server:
+  HTTPPort: 8080
+  readTimeout: 10
+  writeTimeout: 10
+database:
+  type: mysql
+  user: 
+  password: 
+  host: 
+  port: 
+  dbName: 
+
+log:
+  path: logs/
+  prefix: log_
+  level: debug

@@ -1,0 +1,30 @@
+runMode: dev
+server:
+  HTTPPort: 8080
+  readTimeout: 10
+  writeTimeout: 10
+database:
+  type: mysql
+  user: jxw_hr
+  password: Langlib003
+  host: 115.28.67.123
+  port: 3505
+  dbName: jxwhr
+redis:
+  host: 115.28.67.123
+  port: 7397
+  auth: langlib003
+wx:
+  - appId: wx068fffb214adf33d
+    secret: 8766628fe439003f882a8b94f5b54749
+    token: jxw
+    aesKey: A78uBipVWygG3N9ZtlBqedLDOlaZmRtlEaThXhMvaPT
+    name: 服务号
+  - appId: wx7c85b9a22cb62d21
+    secret: 6262b0e2dfde5396ba5671118a3e5325
+    name: 网站管理系统PC端
+
+log:
+  path: logs/
+  prefix: log_
+  level: debug
